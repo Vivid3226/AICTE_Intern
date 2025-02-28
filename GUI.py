@@ -9,7 +9,7 @@ theme_color = "#2C3E50"
 button_color = "#FF5733"
 hover_color = "#C70039"
 text_color = "#FFFFFF"
-background_image_path = "Encrypted.jpg"  # Update this path if needed
+background_image_path = "Encrypted.jpg"  # Update this path if needed , this is for Background_image only.(not for encrypted img)
 
 def on_enter(e):
     e.widget.config(bg=hover_color)
